@@ -18,10 +18,12 @@
 		"silverstripe/framework": "^4.0",
         "silverstripe/vendor-plugin": "^1.0"
 	},
-    "expose": [
+    "extra": {
+        "expose": [
             "css",
             "resources"
-    ],
+    	]
+    },
     "autoload": {
         "psr-4": {
             "Heyday\\ColorPalette\\": "src/"
